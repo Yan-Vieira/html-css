@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código-fonte / pré-formatação</h2>
+    <p>O comando <code>Document.getElementById('teste')</code> é escrito em linguagem JavaScript. Para indicar um código-fonte, o ideal é usar a tag &lt;code&gt;</p>
+    <div>
+        <p>outro exemplo:</p>
+        <pre>
+            <code>
+        local table = {value1 = 1, val2 = 2, v3 = 3}
+
+        for i = 1, #table do
+            table[i] = table[i] + 1
+            print(table[i])
+        end
+            </code>
+        </pre>
+        <p>
+            Para considerar a <strong>indentação</strong> do código, envelope a tag &lt;code&gt; com a tag &lt;pre&gt;
+        </p>
+    </div>
+    <h2>Citações Simples</h2>
+    <p>Como diria o pai do amigo do professor Gustao Guanabara: <q>O computador é um burro muito rápido.</q></p>
+    <h2>Citações Longas</h2>
+    <p>Um sábio disse:</p>
+    <blockquote cite="">
+        "Tudo precisa de um início, o meu é início é esse: tudo começa no nada."
+    </blockquote>
+    <h2>Extra: citação bonita</h2>
+    <blockquote>
+        <em>"Tudo que não me mata, me fortalece."</em>
+    </blockquote>
+    <p>Usando o envelope &lt;blockquote&gt; e &lt;em&gt;</p>
+    <h2>Abreviação</h2>
+    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">Apenas um texto invertido</bdo></p>
+</body>
+</html>

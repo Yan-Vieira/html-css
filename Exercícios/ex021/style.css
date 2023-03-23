@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1;
+}
+
+header{
+    height: 20vh;
+    background-color: hsl(180, 100%, 44%);
+}
+header > h1{
+    color: hsl(22, 100%, 21%);
+}
+
+nav{
+    display: block;
+    position: relative;
+    
+    padding: 20px auto;
+
+    width: 100%;
+
+    height: 20%;
+
+    background-color: hsl(180, 24%, 80%);
+}
+
+main{
+
+    text-align: justify;
+    height: 60vh;
+    padding: 30px 0;
+}
+
+section#destaques > article#destaque-1{
+    margin: 10px;
+    padding: 5px;
+
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 0px 0px 7px 1px hsla(0, 0%, 0%, 0.4);
+}
+
+footer{
+    height: 20vh;
+    background-color: hsl(180, 100%, 44%);
+    color: hsla(0, 0%, 56%, 0.603);
+}

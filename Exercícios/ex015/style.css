@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    font-size: 25px;
+    padding: 30px;
+    background-color: rgb(122, 120, 255);
+    text-align: center;
+
+}
+main{
+    background-color: rgb(249, 250, 186);
+}
+main h1 {
+    color: crimson;
+}
+main h2 {
+    color: red;
+}
+footer {
+    padding: 30px;
+    background-color: rgb(122, 120, 255);
+}
